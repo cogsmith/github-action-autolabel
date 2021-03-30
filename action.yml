@@ -1,0 +1,13 @@
+name: 'HELLOWORLD'
+description: 'HW'
+inputs:
+  who-to-greet:
+    description: 'WHOGREET'
+    required: true
+    default: 'WORLD'
+outputs:
+  time:
+    description: 'DT'
+runs:
+  using: 'node12'
+  main: 'app.js'
